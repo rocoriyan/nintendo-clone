@@ -5,8 +5,12 @@ body{
 img{
     display:inline-block;
 }
-.icon{
+.icon, .iconFC{
     height:18px;
+}
+.icon{
+    
+    filter: invert(26%) sepia(2%) saturate(1%) hue-rotate(314deg) brightness(93%) contrast(84%);
 }
 #top-nav{
     border-top: 2px;
