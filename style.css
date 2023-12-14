@@ -1,6 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
+    font-family: 'Raleway';
 }
 img{
     display:inline-block;
@@ -9,13 +10,23 @@ img{
     height:18px;
 }
 .icon{
-    
     filter: invert(26%) sepia(2%) saturate(1%) hue-rotate(314deg) brightness(93%) contrast(84%);
 }
-#top-nav{
+.minor, .small-title{
+    font-size: 0.875rem;
+}
+.minor{
+    font-weight: lighter;
+}
+.small-title{
+    font-weight: bold;
+}
+#top-nav, #btm-nav{
+    border-style:double;
     border-top: 2px;
     border-color: black;
     display:inline-block;
+    width:100%;
 }
 #top-nav>div, #links>a{
     display:inline-flex;
