@@ -28,8 +28,6 @@ img{
     display:inline-block;
     width:100vw;
 }
-nav{
-}
 #top-nav>div, #links>a{
     display:inline-flex;
     justify-content: center;
