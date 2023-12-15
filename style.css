@@ -3,14 +3,15 @@ body{
     margin: 0;
     font-family: 'Raleway';
     width:100vw;
-    /* overflow: hidden; */
 }
 h1{
     font-size: 28px;
     color: rgb(72, 72, 72);
+    font-weight: 700;
 }
 p{
     color: rgb(72, 72, 72);
+    font-weight: 600;
 }
 img{
     max-width:100%;
@@ -29,21 +30,25 @@ img{
 }
 .dropdown, .dropdown-big{
     width: 12px;
-    padding-left:4px;
 }
 .dropdown-big{
     width:14px;
+    padding-left:15px;
+}
+.dropdown{
+    padding-left:10px;
 }
 .minor, .small-title{
     font-size: 0.875rem;
 }
 .minor{
     font-size: 14px;
-    font-weight: lighter;
+    font-weight: 500;
+    color: #727272;
 }
 .small-title{
     font-size: 14px;
-    font-weight:900;
+    font-weight: 700;
 }
 #top-nav, #btm-nav{
     display:inline-flex;
@@ -65,7 +70,7 @@ img{
     align-items: center;
 }
 #btm-nav a{
-    margin: 0 33px;
+    margin: 0 20px;
 }
 #top-nav>div{
     justify-content: space-between;
@@ -98,7 +103,7 @@ img{
 #links{
     display:inline-flex;
     width:519px;
-    justify-content: space-evenly;
+    justify-content: right;
     align-items: center;
     margin: 0 10px;
 }
@@ -150,4 +155,45 @@ img{
     height: auto;
     display:block;
     border-radius: 15px;
+    box-shadow:rgba(72, 72, 72, 0.15) 0px 4px 16px 0px;
+}
+#gallery-menu{
+    padding-top: 40px;
+    display: inline-flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+#gallery-menu #left, #gallery-menu #first, #gallery-menu #right{
+    line-height: 0px;
+    width:31px;
+    height:31px;
+    border-radius:100%;
+    justify-content: center;
+    background-color: #484848;
+    border: 1px solid #969696;
+}
+#gallery-menu #second, #gallery-menu #third, #gallery-menu #fourth{
+    width:48px;
+    height:8px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #969696;
+    border-style: none;
+}
+#gallery-menu button{
+    margin: 8px;
+    border-style: none;
+}
+.gallery-icon{
+    width:16px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(195deg) brightness(107%) contrast(102%);
+}
+#promo hr{
+    border: none;
+    height: 0px;
+    border-top:1px solid #dadada;
+}
+#featured{
+    padding-top: 40px;
 }
